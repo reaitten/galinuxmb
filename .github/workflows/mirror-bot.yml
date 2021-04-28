@@ -9,7 +9,7 @@ on:
 env:
   GitHubMail: ${{ secrets.GitHubMail }}
   GitHubName: ${{ secrets.GitHubName }}
-
+  BRANCH: "#3"
 jobs:
   debug:
     runs-on: ubuntu-20.04
@@ -35,6 +35,7 @@ jobs:
       - name: Compile The Mirroring Docker Container
         run: |
           cd source || exit 1
+          git checkout $BRANCH
           echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u ${{ secrets.DOCKER_USERNAME }} --password-stdin
           docker container prune --force || true
           docker build . --rm --force-rm --compress --no-cache=true --pull --file Dockerfile -t mirror-bot
