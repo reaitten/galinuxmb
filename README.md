@@ -1,34 +1,33 @@
-# mirrorbot-workflow
+# galinuxmb
 
-You can use [this repo](https://github.com/lzzy12/python-aria-mirror-bot) as a template
+You can use [this repo](https://github.com/breakdowns/slam-mirrorbot) as a template
 
 First setup everything then push to your private Repository
 
-Then Fork this Repo
+Then fork this Repo
 
 Setup secrets in settings --> Secrets
 
 ```text
-GH_TOKEN :- Your github personal access token, from https://github.com/settings/tokens
-MIRROR_REPOSLUG :- Your Secret Repository, as in "<username>/<reponame>"
-GitHubName:- Your GitHub UserName
-GitHubMail:- You GitHub Email Address
-Docker_Username:- Your DockerHub Username
-Docker_Password:- Your DockerHub Password
+GH_TOKEN: Your github personal access token, from https://github.com/settings/tokens
+MIRROR_REPOSLUG: Your Secret Repository, as in "<username>/<reponame>"
+GitHubName: Your GitHub UserName
+GitHubMail: You GitHub Email Address
+Docker_Username: Your DockerHub Username
+Docker_Password: Your DockerHub Password
 ```
 
 And That's it.
 
-©ElytrA8
-
 # Terms Of Use 
 
-This is Only For debugging Purposes.
+**This is only for Debugging Purposes.**
 
-If you use It For Deploying Your Account Might Get Ban.
+If you use it for Deploying, your account will get banned.
 
-We Are Not Responsible For Any Action Taken By GitHub.
+We are *not responsible* for any action taken by GitHub.
 
 # Credits
 
-[rokibhasansagar](https://github.com/rokibhasansagar) & [henloboi](https://github.com/JamieHoSzeYui) for infinite help.
+- [rokibhasansagar](https://github.com/rokibhasansagar) 
+- [henloboi](https://github.com/JamieHoSzeYui) for infinite help.
