@@ -1,4 +1,4 @@
-name: MirrorBot Environment
+name: galinuxmb
 
 on:
   push:
@@ -12,7 +12,7 @@ env:
   BRANCH: "#3"
 jobs:
   debug:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
