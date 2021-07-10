@@ -1,14 +1,14 @@
 # galinuxmb
 
-You can use [this repo](https://github.com/breakdowns/slam-mirrorbot) as a template
+You can use [this repo](https://github.com/breakdowns/slam-mirrorbot) as a template.
+---
+Setup everything then push to your private repository. 
 
-First setup everything then push to your private Repository
-
-Then fork this Repo
+Fork/import this repo.
 
 Setup secrets in settings --> Secrets
 
-```text
+```
 GH_TOKEN: Your github personal access token, from https://github.com/settings/tokens
 MIRROR_REPOSLUG: Your Secret Repository, as in "<username>/<reponame>"
 GitHubName: Your GitHub UserName
@@ -16,8 +16,8 @@ GitHubMail: You GitHub Email Address
 Docker_Username: Your DockerHub Username
 Docker_Password: Your DockerHub Password
 ```
+---
 
-And That's it.
 
 # Terms Of Use 
 
